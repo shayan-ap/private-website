@@ -1,9 +1,10 @@
 import "./App.css";
+import MyNavbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-800 text-xl">yasin</h1>
+      <MyNavbar />
     </>
   );
 }
