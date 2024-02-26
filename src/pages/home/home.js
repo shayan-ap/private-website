@@ -6,7 +6,7 @@ function Home() {
     <>
       <MyNavbar />
       <div className="flex justify-center">
-        <div className="w-full lg:w-4/5 h-96 bg-gray-700"></div>
+        <div className="lg:w-4/5 h-96 bg-gray-700"></div>
       </div>
       <h4 className="text-center lg:mt-2 lg:mb-2 font-bold">محصولات آینده</h4>
       <MyCard />
