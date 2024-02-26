@@ -44,9 +44,9 @@ function Login() {
                 />
               </div>
               <div className="container lg:mt-6 flex justify-center items-center">
-                <div className="w-1/4 h-px bg-white mt-1"></div>
+                <div className="w-1/4 h-px bg-gray-400 mt-1"></div>
                 <div className="text-white text-sm mx-2">ادامه دادن با</div>
-                <div className="w-1/4 h-px bg-white mt-1"></div>
+                <div className="w-1/4 h-px bg-gray-400 mt-1"></div>
               </div>
               <div className="container lg:mt-6 flex justify-center items-center">
                 <div className="w-1/4 h-12 border border-neworange rounded-2xl flex items-center justify-center">
