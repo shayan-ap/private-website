@@ -10,6 +10,8 @@ const products = [
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
+
+    
     id: 2,
     name: "Nomad Tumbler",
     href: "#",
