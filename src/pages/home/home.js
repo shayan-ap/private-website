@@ -1,4 +1,5 @@
 import MyCard from "../../Components/Card/Card";
+import MyFooter from "../../Components/Footer/Footer";
 import MyNavbar from "../../Components/Navbar/Navbar";
 import { Carousel } from "flowbite-react";
 function Home() {
@@ -26,6 +27,7 @@ function Home() {
           />
         </Carousel>
       </div>
+      <MyFooter />
     </>
   );
 }
