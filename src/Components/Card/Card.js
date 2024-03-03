@@ -52,7 +52,7 @@ export default function MyCard() {
             <a
               key={product.id}
               href={product.href}
-              className="group border border-solid pb-3 rounded-lg transition transform hover:scale-105"
+              className="group border border-solid pb-3 rounded-lg transition duration-700 transform hover:scale-105"
             >
               <div className="aspect-h-1  aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                 <img
@@ -68,7 +68,7 @@ export default function MyCard() {
                 {product.price}
               </p>
               <div className="flex justify-center mt-2">
-                <button class="bg-transparent  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-center">
+                <button class="bg-transparent duration-500  hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded text-center">
                   Button
                 </button>
               </div>
