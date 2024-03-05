@@ -1,3 +1,16 @@
 .navbar{
     background-color: 191919;
 }
+@media only screen and (max-width: 1024px) {
+    .icon{
+        margin-top: 10px;
+        margin-right: 7px;
+    }
+    .icon1{
+        margin-top: 7px;
+    }
+    .icon2{
+        margin-left: 8px;
+    }
+  }
+  

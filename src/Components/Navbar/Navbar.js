@@ -14,22 +14,34 @@ function MyNavbar() {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <TiShoppingCart size={25} className="text-neworange" />
-          <FaSearch size={20} className="lg:mr-2 lg:mt-1 text-neworange" />
+          <TiShoppingCart
+            size={25}
+            className="text-neworange icon icon1 hover:scale-110 hover:text-white"
+          />
+          <FaSearch
+            size={20}
+            className="lg:mr-2 lg:mt-1 text-neworange icon icon2 hover:scale-110 hover:text-white"
+          />
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
-          <NavLink className="nav-link ml-5" to={"/"}>
+          <hr />
+          <NavLink className="nav-link lg:ml-5 p-1 hover:bg-gray-600" to={"/"}>
             خانه
           </NavLink>
-          <NavLink className="nav-link" to={"/about"}>
+          <hr />
+          <NavLink className="nav-link p-1 hover:bg-gray-600" to={"/about"}>
             درباره ی ما
           </NavLink>
-          <NavLink className="nav-link">صفحات</NavLink>
-          <NavLink className="nav-link">محصولات</NavLink>
-          <NavLink className="nav-link" to={"/contact"}>
+          <hr />
+          <NavLink className="nav-link p-1 hover:bg-gray-600">صفحات</NavLink>
+          <hr />
+          <NavLink className="nav-link p-1 hover:bg-gray-600">محصولات</NavLink>
+          <hr />
+          <NavLink className="nav-link p-1 hover:bg-gray-600" to={"/contact"}>
             ارتباط با ما
           </NavLink>
+          <hr />
         </Navbar.Collapse>
       </Navbar>
     </div>

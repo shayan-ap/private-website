@@ -1,6 +1,7 @@
 import MyCard from "../../Components/Card/Card";
 import MyFooter from "../../Components/Footer/Footer";
 import MyNavbar from "../../Components/Navbar/Navbar";
+import "./home.css";
 import { Carousel } from "flowbite-react";
 function Home() {
   return (
@@ -26,6 +27,12 @@ function Home() {
             alt=""
           />
         </Carousel>
+      </div>
+      <div className="w-full h-screen flex justify-center filter">
+        <div className="right w-1/6 bg-gray-50 rounded-none">
+          <input type="radio" id="myInput" />
+        </div>
+        <div className="left w-4/6 bg-neworange rounded-none"></div>
       </div>
       <MyFooter />
     </>
