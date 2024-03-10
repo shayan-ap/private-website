@@ -12,7 +12,9 @@ function Home() {
         <div className="lg:w-4/5 h-96 bg-gray-700"></div>
       </div>
       <h4 className="text-center lg:mt-2 lg:mb-2 font-bold">محصولات آینده</h4>
-      <MyCard />
+      <div className="py-16 ">
+        <MyCard />
+      </div>
       <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel className="mb-4">
           <img
@@ -33,7 +35,17 @@ function Home() {
         <div className="right w-1/6  rounded-none border border-solid border-white">
           <Filter />
         </div>
-        <div className="left w-4/6 rounded-none border border-solid border-white"></div>
+        <div className="left w-4/6 rounded-none border border-solid border-white flex">
+          <div className="py-3 px-12">
+            <div className="cards">
+              <MyCard />
+            </div>
+            <br />
+            <div className="cards">
+              <MyCard />
+            </div>
+          </div>
+        </div>
       </div>
       <MyFooter />
     </>
