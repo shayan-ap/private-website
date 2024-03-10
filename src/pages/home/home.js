@@ -3,6 +3,7 @@ import MyFooter from "../../Components/Footer/Footer";
 import MyNavbar from "../../Components/Navbar/Navbar";
 import "./home.css";
 import { Carousel } from "flowbite-react";
+import Filter from "../../Components/filter/filter";
 function Home() {
   return (
     <>
@@ -28,11 +29,11 @@ function Home() {
           />
         </Carousel>
       </div>
-      <div className="w-full h-screen flex justify-center filter">
-        <div className="right w-1/6 bg-gray-50 rounded-none">
-          <input type="radio" id="myInput" />
+      <div className="w-full h-content flex justify-center filter">
+        <div className="right w-1/6  rounded-none border border-solid border-white">
+          <Filter />
         </div>
-        <div className="left w-4/6 bg-neworange rounded-none"></div>
+        <div className="left w-4/6 rounded-none border border-solid border-white"></div>
       </div>
       <MyFooter />
     </>
